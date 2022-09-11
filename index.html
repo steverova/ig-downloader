@@ -13,45 +13,33 @@
 </head>
 
 <body>
-
-</body>
-
-</html>
-
-<div class="container-fluid mt-5 mb-5">
-    <div class="row justify-content-center">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-5">
-            <div class="col-xs-12 col-sm-8 col-md-10 col-lg-12 text-center ">
-                <p>Ingrese la dirección</p>
-
-                <div class="mt-3">
-                    <input class="form" id="uri" type="text" placeholder="https://www.instagram.com/p/xxxxxxxxxxx/">
-                </div>
-                <div class="mt-3">
-                    <button id="download" onclick="geturi()">Enviar</button>
-                </div>
-                
-                <div class="mt-3" id="alert"></div>
-
-                <div id="card-img">
-                    <div class="d-flex justify-content-center mt-3">
-                        <img id="image1" width="100%" height="100%">
+    <div class="container-fluid mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-5">
+                <div class="col-xs-12 col-sm-8 col-md-10 col-lg-12 text-center ">
+                    <p>Ingrese la dirección</p>
+                    <div class="mt-3">
+                        <input class="form" id="uri" type="text" placeholder="https://www.instagram.com/p/xxxxxxxxxxx/">
                     </div>
-                    <p class="text-download-info text-center mt-3">
-                        Click derecho > Guardar como...
-                    </p>
-
-                    <button onclick="clearData()">
-                        Nueva descarga
-                    </button>
+                    <div class="mt-3">
+                        <button id="download" onclick="geturi()">Enviar</button>
+                    </div>
+                    <div class="mt-3" id="alert"></div>
+                    <div id="card-img">
+                        <div class="d-flex justify-content-center mt-3">
+                            <img id="image1" width="100%" height="100%">
+                        </div>
+                        <p class="text-download-info text-center mt-3">
+                            Click derecho > Guardar como...
+                        </p>
+                        <button onclick="clearData()">
+                            Nueva descarga
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-</div>
-
-<script src="src/js/script.js"></script>
+    <script src="src/js/script.js"></script>
 </body>
-
 </html>

@@ -18,9 +18,7 @@ function geturi() {
    || ur[0] != "https://www.instagram.com") {
     document.getElementById(
       "alert"
-    ).innerHTML = `<div id="myalert01" class="alert alert-warning" role="alert">
-  Ingrese una direccion valida
-</div>`;
+    ).innerHTML = `<p id="myalert01">Ingrese una direccion valida</p>`;
   } else {
     const url = uri + "media/?size=l";
     document.getElementById("image1").style.display = "block";
