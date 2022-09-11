@@ -12,7 +12,7 @@ body {
 }
 
 input {
-  width: 60%;
+  width: 100%;
   padding: 0.5rem;
   border: 1px solid rgb(128, 253, 176);
   background-color: rgb(37, 37, 37);
@@ -22,7 +22,7 @@ input {
 }
 
 button {
-  width: 60%;
+  width: 100%;
   padding: 0.5rem;
   background-color: rgb(128, 253, 176);
     border-radius: 10px;
