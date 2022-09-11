@@ -1,0 +1,41 @@
+
+
+body {
+  background-color: rgb(37, 37, 37);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+
+}
+
+#card-img {
+  display: none;
+}
+
+input {
+  width: 60%;
+  padding: 0.5rem;
+  border: 1px solid rgb(128, 253, 176);
+  background-color: rgb(37, 37, 37);
+  color: aliceblue;
+
+  border-radius: 10px;
+}
+
+button {
+  width: 60%;
+  padding: 0.5rem;
+  background-color: rgb(128, 253, 176);
+    border-radius: 10px;
+}
+
+button:hover{
+     background-color: rgb(55, 223, 119);
+}
+
+p{
+    color: aliceblue;
+}
+
+p text-download-info{
+    color:rgb(6, 219, 88); ;
+}
